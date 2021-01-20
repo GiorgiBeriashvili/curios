@@ -1,6 +1,5 @@
 import React from "../../../web_modules/react.js";
 import {Switch, Route} from "../../../web_modules/react-router-dom.js";
-import GifMaker from "./gif-maker/index.js";
 import Introduction from "./introduction/index.js";
 import Unknown from "./unknown/index.js";
 import PeriodicTable from "./periodic-table/index.js";
@@ -22,10 +21,6 @@ const Content = () => /* @__PURE__ */ React.createElement("div", {
   exact: true,
   path: "/curios",
   component: Curios
-}), /* @__PURE__ */ React.createElement(Route, {
-  exact: true,
-  path: "/curios/gif-maker",
-  component: GifMaker
 }), /* @__PURE__ */ React.createElement(Route, {
   exact: true,
   path: "/curios/periodic-table",
