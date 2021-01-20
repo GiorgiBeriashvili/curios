@@ -1,5 +1,5 @@
 import HalfMoon from 'halfmoon';
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { toastAlert } from '../../shared/Toast';
 
@@ -11,9 +11,8 @@ interface IntroductionState {
     route: string;
 }
 
-// eslint-disable-next-line @typescript-eslint/no-empty-interface
 interface CurioPickerProps {
-    (navigateTo: string): void;
+    navigateTo: FunctionStringCallback;
 }
 
 interface CurioPickerState {
