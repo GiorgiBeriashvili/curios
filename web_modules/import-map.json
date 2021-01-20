@@ -1,0 +1,11 @@
+{
+  "imports": {
+    "@ffmpeg/ffmpeg": "./@ffmpeg/ffmpeg.js",
+    "halfmoon": "./halfmoon.js",
+    "halfmoon/css/halfmoon-variables.min.css": "./halfmoon/css/halfmoon-variables.min.css",
+    "normalize.css/normalize.css": "./normalize.css/normalize.css",
+    "react": "./react.js",
+    "react-dom": "./react-dom.js",
+    "react-router-dom": "./react-router-dom.js"
+  }
+}
