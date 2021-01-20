@@ -1,5 +1,6 @@
 {
   "imports": {
+    "@ffmpeg/ffmpeg": "./@ffmpeg/ffmpeg.js",
     "halfmoon": "./halfmoon.js",
     "halfmoon/css/halfmoon-variables.min.css": "./halfmoon/css/halfmoon-variables.min.css",
     "normalize.css/normalize.css": "./normalize.css/normalize.css",
